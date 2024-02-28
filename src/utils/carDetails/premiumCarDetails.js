@@ -1,0 +1,43 @@
+export const premiumCarDetails = [
+  {
+    id: 1,
+    img: 'https://www.motortrend.com/uploads/sites/10/2015/11/2015-mercedes-benz-s-class-550-sedan-angular-front.png?fit=around%7C875:492.1875',
+    carNameEng: 'Mercedes S Class',
+    carNameChn: '奔驰s级',
+    price: 400,
+    perKm: 3.3,
+    category: 'Premium Sedan',
+    seater: 4,
+  },
+  {
+    id: 2,
+    img: 'https://cdn.jdpower.com/ChromeImageGallery/Expanded/Transparent/640/2022BMC08_640/2022BMC080001_640_01.png',
+    carNameEng: 'BMW 7 Series',
+    carNameChn: '宝马系列',
+    price: 400,
+    perKm: 3.2,
+    category: 'Premium Sedan',
+    seater: 4,
+  },
+  {
+    id: 3,
+    img: 'https://www.greenncap.com/wp-content/uploads/Mercedes-Benz-V-Class_2020_0037-673x450.png',
+    carNameEng: 'Mercedes V Class',
+    carNameChn: '奔驰V级',
+    price: 400,
+    perKm: 3,
+    category: 'Premium VAN',
+    seater: 8,
+  },
+
+  {
+    id: 4,
+    img: 'https://cfx-vrf-main-imgs.imgix.net/5/a/7/658acde1cda8cd89297f8ece5ba962a3e76df7a5.png?auto=format&fit=clip&w=420',
+    carNameEng: 'Cadillac',
+    carNameChn: ' 凯迪拉克',
+    price: 400,
+    perKm: 3,
+    category: 'Premium VAN',
+    seater: 9,
+  },
+];

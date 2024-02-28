@@ -1,0 +1,32 @@
+export const luxuryCarDetails = [
+  {
+    id: 1,
+    img: 'https://di-uploads-pod3.dealerinspire.com/mercedesbenzofalexandria/uploads/2016/10/front-left-640-en_US-1.jpg',
+    carNameEng: 'Mercedes E Class',
+    carNameChn: '奔驰E级',
+    price: 175,
+    perKm: 2.75,
+    category: 'Luxury Sedan',
+    seater: 4,
+  },
+  {
+    id: 2,
+    img: 'https://ymimg1.b8cdn.com/resized/car_version/10123/pictures/3652619/webp_listing_main_11854_st1280_046.webp',
+    carNameEng: 'BMW 5 Series',
+    carNameChn: '宝马5系',
+    price: 175,
+    perKm: 2.75,
+    category: 'Luxury Sedan',
+    seater: 4,
+  },
+  {
+    id: 3,
+    img: 'https://images.dealer.com/ddc/vehicles/2022/GMC/Terrain/SUV/still/front-left/front-left-640-en_US.jpg',
+    carNameEng: 'GMC',
+    carNameChn: 'GMC',
+    price: 250,
+    perKm: 3,
+    category: 'Premium VAN',
+    seater: 9,
+  },
+];

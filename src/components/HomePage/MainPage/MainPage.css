@@ -1,0 +1,160 @@
+.main-page-container {
+  width: 100%;
+  position: relative;
+}
+
+.main-page-img {
+  background-image: url('../../../assets/map3dimage.svg');
+  min-height: 63vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1.2;
+}
+
+.main-page-info-container {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+.main-page-heading {
+  margin-top: 40px;
+}
+
+.main-page-heading .heading-1,
+.main-page-heading .heading-2 {
+  color: #fff;
+}
+
+.main-page-heading .heading-1 {
+  color: #fff;
+  /* font-size: 61px; */
+  font-size: 48px;
+  margin-bottom: 5px;
+}
+
+.main-page-heading .heading-2 {
+  /* font-size: 23px; */
+  font-size: 16px;
+  color: #fff;
+}
+
+.main-page-buttons {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.main-page-buttons button {
+  font-family: 'Poppins', sans-serif;
+  margin-top: 35px;
+  padding: 14px;
+  cursor: pointer;
+  margin: 0 20px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+}
+
+.our-services-btn {
+  background: #fff;
+  transition: background-color 0.5s ease-out 50ms;
+}
+
+.our-services-btn:hover {
+  transform: translateY(-5%);
+  transition: all 0.3s ease-out;
+}
+
+.make-a-booking-btn {
+  /* background: linear-gradient(330.24deg, #ff6c00 11.99%, #e52c43 88.79%); */
+  background-color: #e52d42;
+  color: #fff;
+}
+
+.make-a-booking-btn {
+  transition: background-color 0.5s ease-out 50ms;
+}
+
+.make-a-booking-btn:hover {
+  transform: translateY(-5%);
+  transition: all 0.3s ease-out;
+}
+
+.seperator {
+  height: 2px;
+  background: #fff;
+  width: 22%;
+  margin: 45px auto;
+}
+
+@media screen and (max-width: 900px) {
+  .main-page-heading {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .main-page-buttons {
+    flex-direction: column;
+  }
+
+  .main-page-heading h1 {
+    font-size: 40px;
+  }
+
+  .main-page-buttons a {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .main-page-buttons {
+    flex-direction: column;
+  }
+
+  .main-page-heading {
+    text-align: center;
+  }
+
+  .main-page-heading h1 {
+    font-size: 45px;
+  }
+
+  .our-services-btn {
+    margin: 20px 0 !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-page-heading h1 {
+    font-size: 25px;
+  }
+
+  .main-page-heading h2 {
+    font-size: 18px;
+  }
+
+  .main-page-buttons button {
+    padding: 10px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 348px) {
+  .main-page-buttons button {
+    font-size: 11px;
+  }
+  .main-page-heading h1 {
+    font-size: 20px;
+  }
+
+  .main-page-heading h2 {
+    font-size: 12px;
+  }
+}

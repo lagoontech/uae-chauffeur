@@ -1,0 +1,121 @@
+.car-lists-container {
+  margin: 20px auto;
+  width: 90vw;
+  display: flex;
+  background: white;
+}
+
+.select-vehicle {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.car-selection {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.car-selection > button {
+  cursor: pointer;
+  background: #999;
+  border: transparent;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  display: inline-block;
+  padding: 0.375rem 0.75rem;
+  transition: 0.3s ease-in-out all;
+  font-size: 16px;
+  margin-right: 35px;
+}
+
+.car-selection > button:hover {
+  background: black;
+  color: white;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.car-selection > button.active {
+  background-color: black;
+  color: white;
+}
+
+@media screen and (max-width: 790px) {
+  .car-lists-container {
+    width: 100%;
+    /* flex-direction: column; */
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .car-lists-container {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .car-selection {
+    margin-left: 30px;
+  }
+
+  .car-btn {
+    flex-direction: column;
+  }
+
+  span.car-price {
+    color: crimson;
+  }
+
+  .car-summary {
+    width: 100%;
+  }
+
+  .summary-date-and-time {
+    gap: 90px;
+  }
+
+  .summary-car-price {
+    gap: 20px;
+  }
+
+  .vehicle-name {
+    margin-left: 15px;
+  }
+
+  .vehicle-fare {
+    margin-left: 0px;
+  }
+
+  .total-fare-last-div {
+    top: 91%;
+    left: 13%;
+  }
+
+  .prev-and-continue-btns {
+    gap: 120px;
+  }
+}
+
+@media screen and (max-width: 392px) {
+  .car-summary {
+    height: 705px;
+  }
+
+  .car-selection > button {
+    font-size: 13px;
+  }
+
+  .total-fare-last-div {
+    top: 92%;
+    left: 16%;
+  }
+
+  .summary-date-and-time {
+    gap: 15px;
+  }
+
+  .total-fare-h2 {
+    font-size: 20px !important;
+  }
+}

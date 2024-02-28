@@ -1,0 +1,319 @@
+.hour-form-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hour-form-selection {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.hour-form-selection button {
+  padding: 12px;
+  color: black;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.dubai-btn.active {
+  background-color: black;
+  color: white;
+}
+
+.other-emirates-btn.active {
+  background-color: black;
+  color: white;
+}
+
+.hour-form {
+  width: 100%;
+  min-width: 80%;
+  margin: 0 auto;
+  padding-bottom: 15px;
+  margin-right: 1px;
+  background: white;
+  position: relative;
+}
+
+.hour-form-div {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+  margin: 0 auto;
+  min-width: 100%;
+  display: flex;
+}
+
+.form-group {
+  position: relative;
+  margin: 35px;
+}
+
+form input {
+  padding: 18px;
+  display: block;
+  position: relative;
+  width: 80%;
+  margin: 8px auto;
+  border: none;
+  background: rgba(229, 231, 235, 1);
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.hourly-ride {
+  padding: 18px;
+  width: 80%;
+  display: block;
+  margin: 8px auto;
+  border: none;
+  background-color: rgba(229, 231, 235, 1);
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+form label {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+::placeholder {
+  font-size: 15px;
+  position: absolute;
+  top: 30%;
+  left: 5%;
+}
+
+.location-icon-hourly {
+  position: absolute;
+  font-size: 26px;
+  right: 12%;
+  top: 50%;
+}
+
+/* .find-chauffeur-btn {
+  padding: 15px 18px;
+  text-align: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin: 15px auto;
+  display: block;
+  cursor: pointer;
+  font-size: 18px;
+} */
+
+/* .find-chauffeur-btn:hover {
+  transform: translateY(-10%);
+  transition: all 0.2s ease-in;
+} */
+
+.hour-group-pick-up::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 28px;
+  height: 28px;
+  background-color: #e4e7ea;
+  border-radius: 0 20px 20px 0;
+}
+
+.hour-group-drop::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 28px;
+  height: 28px;
+  background-color: #e4e7ea;
+  border-radius: 0 20px 20px 0;
+}
+
+.hour-group-pick-up::after {
+  position: absolute;
+  content: '';
+  margin-top: 10px;
+  top: -5px;
+  left: 7px;
+  width: 12px;
+  height: 12px;
+  background-color: #26a65b;
+  border-radius: 50%;
+}
+
+.hour-group-drop::after {
+  position: absolute;
+  content: '';
+  margin-top: 10px;
+  top: -2px;
+  left: 7px;
+  width: 12px;
+  height: 12px;
+  background-color: #26a65b;
+  border-radius: 50%;
+}
+
+.hour-form-div::before {
+  content: '';
+  position: absolute;
+  top: 123px;
+  left: 77px;
+  width: 6px;
+  height: 125px;
+  background-color: #26a65b;
+  z-index: 1;
+}
+
+.hour-form-div-all-input {
+  height: 645px;
+  width: 635px;
+  min-width: 700px;
+  max-width: 800px;
+}
+
+.tool-tip-span-hour {
+  margin-left: 62px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.css-1ald77x {
+  margin-left: 2px !important;
+}
+
+@media screen and (max-width: 760px) {
+  .hour-form-div-all-input {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .hourly-ride {
+    width: 100%;
+  }
+
+  .transfer-form-div {
+    flex-direction: column;
+  }
+
+  .booking-form-header {
+    gap: 6px;
+  }
+
+  .tranfer-form-input-mobile-label {
+    margin-left: 40px;
+  }
+
+  ::placeholder {
+    margin-left: 10px;
+    margin-top: 3px;
+  }
+
+  .clock-icon {
+    top: 29%;
+  }
+
+  .map-container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 514px) {
+  .find-chauffeur-btn {
+    padding: 12px 15px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .hour-form-selection {
+    gap: 50px;
+  }
+
+  .find-chauffeur-btn {
+    padding: 14px 17px;
+    font-size: 12px;
+  }
+
+  .hour-group-pick-up::before {
+    left: -24px;
+  }
+
+  .hour-group-drop::before {
+    left: -24px;
+  }
+
+  .hour-group-pick-up::after {
+    left: -17px;
+  }
+
+  .hour-group-drop::after {
+    left: -17px;
+  }
+
+  .hour-form-div::before {
+    left: 53px;
+  }
+
+  /* form label {
+    margin-left: 5px;
+  } */
+
+  .hour-form-input-mobile-label {
+    margin-left: 7px;
+  }
+
+  .location-icon-hourly {
+    right: 3%;
+  }
+
+  form input {
+    width: 100% !important;
+  }
+
+  .location-icon {
+    right: 7%;
+  }
+
+  .tranfer-form-input-mobile-label {
+    margin-left: 6px !important;
+  }
+
+  .css-1gtlbg0 {
+    overflow: inherit !important;
+  }
+  .css-1gtlbg0 > .MuiTextField-root {
+    margin-left: 0 !important;
+    background: transparent !important;
+  }
+
+  .date-picker,
+  .time-picker {
+    width: 100% !important;
+  }
+
+  .clock-icon {
+    left: 83%;
+  }
+
+  .tool-tip-span-hour {
+    margin-left: 0;
+    display: inline-block;
+    margin-top: 10px;
+  }
+}
+
+@media screen and(max-width:399px) {
+  .when-and-where-h2 {
+    font-size: 12px !important;
+  }
+}

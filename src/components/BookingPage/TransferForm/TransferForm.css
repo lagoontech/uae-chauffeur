@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+.transfer-form-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.transfer-form {
+  width: 100%;
+  min-width: 80%;
+  margin: 0 auto;
+  padding-bottom: 15px;
+  margin-right: 1px;
+  background-color: white;
+  position: relative;
+}
+
+.form-group {
+  position: relative;
+  margin: 35px !important;
+}
+
+form input {
+  padding: 18px;
+  display: block;
+  position: relative;
+  width: 80%;
+  margin: 8px auto;
+  border: none;
+  background-color: rgba(229, 231, 235, 1) !important;
+  border-radius: 5px;
+}
+
+.css-1xhypcz-MuiStack-root > .MuiTextField-root {
+  background-color: rgba(229, 231, 235, 1);
+}
+
+/* form input:focus {
+  outline: none;
+
+  border: 2px solid #1976d2 !important;
+} */
+
+.pickup-input:focus {
+  outline: none;
+  border: 2px solid #1976d2;
+}
+
+.drop-input:focus {
+  outline: none;
+  border: 2px solid #1976d2;
+}
+
+form label {
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 69px;
+}
+
+::placeholder {
+  font-size: 15px;
+  /* position: absolute;
+  margin-top: 3px;
+  left: 5%; */
+  margin-left: 2px;
+  margin-top: 2px;
+}
+
+.location-icon {
+  position: absolute;
+  font-size: 26px;
+  right: 12%;
+  top: 50%;
+}
+
+.clock-icon {
+  position: absolute;
+  font-size: 26px;
+  right: 12%;
+  top: 40%;
+}
+
+.transfer-form-div {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  padding: 2em;
+  margin: 0 auto;
+  min-width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.tranfer-form-div-all-input {
+  height: 645px;
+  width: 635px;
+  min-width: 700px;
+  max-width: 800px;
+}
+
+.find-chauffeur-btn {
+  width: 45%;
+  padding: 15px 18px;
+  text-align: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin: 45px auto;
+  display: block;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 60px;
+}
+
+.find-chauffeur-btn:hover {
+  transform: translateY(-10%);
+  transition: all 0.2s ease-in;
+}
+
+.date-picker {
+  width: 80% !important;
+  background: none #ffff !important;
+  border: 2px solid #00000017 !important;
+  border-radius: 5px !important;
+}
+
+.time-picker {
+  width: 80% !important;
+  background: none #ffff !important;
+  border: 2px solid #00000017 !important;
+  border-radius: 5px !important;
+}
+
+.css-1xhypcz-MuiStack-root > .MuiTextField-root {
+  border: none !important;
+}
+
+.css-1xhypcz-MuiStack-root > .MuiTextField-root {
+  margin: 0 auto !important;
+}
+
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+  background-color: rgba(229, 231, 235, 1) !important;
+}
+
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+  background-color: rgba(229, 231, 235, 1) !important;
+}
+
+/* .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+  position: absolute;
+  left: -43px !important;
+} */
+
+/* .css-1jy569b-MuiFormLabel-root-MuiInputLabel-root {
+  position: absolute;
+  left: -51px !important;
+} */
+
+.map-container {
+  width: 400px;
+  height: 645px;
+  margin: 0 auto;
+  box-shadow: 0 2px 10px;
+  border-radius: 10px;
+}
+
+.map-container h3 {
+  text-align: center;
+  padding: 20px;
+}
+
+.create-new-reservation {
+  height: 70px;
+  background: black;
+  color: white;
+  align-items: center;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+  color: black !important;
+}
+
+.pac-container {
+  padding: 15px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.pac-icon {
+  font-weight: 900;
+  fill: red;
+}
+
+.pac-icon:hover {
+  transform: translateY(-20%);
+}
+
+.pac-item {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+.pac-item:hover {
+  background-color: rgba(229, 231, 235, 1);
+}
+
+.pac-container:after {
+  display: none !important;
+}
+
+.css-1gtlbg0 > .MuiTextField-root {
+  margin-left: 60px !important;
+  background: rgba(229, 231, 235, 1) !important;
+}
+
+.css-p0rm37 {
+  left: -46px !important;
+}
+
+.from-group-pick-up::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 28px;
+  height: 28px;
+  background-color: #e4e7ea;
+  border-radius: 0 20px 20px 0;
+}
+
+.from-group-drop::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 28px;
+  height: 28px;
+  background-color: #e4e7ea;
+  border-radius: 0 20px 20px 0;
+}
+
+.transfer-form-div::before {
+  content: '';
+  position: absolute;
+  top: 81px;
+  left: 77px;
+  width: 6px;
+  height: 125px;
+  background-color: #26a65b;
+  z-index: 1;
+}
+
+.from-group-pick-up::after {
+  position: absolute;
+  content: '';
+  margin-top: 10px;
+  top: -5px;
+  left: 7px;
+  width: 12px;
+  height: 12px;
+  background-color: #26a65b;
+  border-radius: 50%;
+}
+
+.from-group-drop::after {
+  position: absolute;
+  content: '';
+  margin-top: 10px;
+  top: -2px;
+  left: 7px;
+  width: 12px;
+  height: 12px;
+  background-color: #26a65b;
+  border-radius: 50%;
+}
+
+.tool-tip-span-transfer {
+  margin-left: 62px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.css-1ald77x {
+  margin-left: 2px !important;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 790px) {
+  .clock-icon {
+    top: 20%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .tranfer-form-div-all-input {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .transfer-form-div {
+    flex-direction: column;
+  }
+
+  .booking-form-header {
+    gap: 6px;
+  }
+
+  .tranfer-form-input-mobile-label {
+    margin-left: 40px;
+  }
+
+  ::placeholder {
+    margin-left: 10px;
+    margin-top: 3px;
+  }
+
+  .clock-icon {
+    top: 18% !important;
+  }
+
+  .map-container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 514px) {
+  .find-chauffeur-btn {
+    padding: 12px 15px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .find-chauffeur-btn {
+    padding: 14px 17px;
+    font-size: 12px;
+  }
+
+  .from-group-pick-up::before {
+    left: -24px;
+  }
+
+  .from-group-drop::before {
+    left: -24px;
+  }
+
+  .from-group-pick-up::after {
+    left: -17px;
+  }
+
+  .from-group-drop::after {
+    left: -17px;
+  }
+
+  .transfer-form-div::before {
+    left: 53px;
+  }
+
+  form input {
+    width: 100% !important;
+  }
+
+  .location-icon {
+    right: 7%;
+  }
+
+  .tranfer-form-input-mobile-label {
+    margin-left: 6px !important;
+  }
+
+  .css-1gtlbg0 {
+    overflow: inherit !important;
+  }
+  .css-1gtlbg0 > .MuiTextField-root {
+    margin-left: 0 !important;
+    background: transparent !important;
+  }
+
+  .date-picker,
+  .time-picker {
+    width: 100% !important;
+  }
+
+  .clock-icon {
+    left: 83%;
+  }
+
+  .tool-tip-span-transfer {
+    margin-left: 0 !important;
+    display: inline-block;
+    margin-top: 10px !important;
+  }
+}
+
+@media screen and(max-width:399px) {
+  .when-and-where-h2 {
+    font-size: 12px !important;
+  }
+}

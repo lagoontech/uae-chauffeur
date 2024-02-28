@@ -1,0 +1,16 @@
+.quotes {
+  text-align: center;
+}
+
+.quotes > h2 {
+  color: black;
+  letter-spacing: 0.15px;
+  font-size: 44px;
+  margin-top: 80px;
+  line-height: 1.5;
+}
+
+.quotes > p {
+  font-size: 25px;
+  margin-top: 25px;
+}

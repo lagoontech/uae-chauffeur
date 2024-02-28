@@ -1,0 +1,150 @@
+.about-us {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: rgb(0, 17, 44);
+}
+
+.about-us.contact-us-page {
+  background-color: #12141d;
+}
+
+.uae-chauffuer-logo {
+  max-width: 30%;
+  padding: 20px;
+}
+
+.uae-chauffeur-img {
+  height: 90px;
+  width: 140px;
+}
+
+.about-us-info {
+  max-width: 30%;
+  padding: 20px;
+}
+
+.about-us-info > h2 {
+  margin-bottom: 20px;
+}
+
+.dubai-location {
+  display: flex;
+  align-items: center;
+  /* text-align: left; */
+  /* justify-content: space-around; */
+  margin-bottom: 10px;
+}
+
+.china-location {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.telephone {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.mobile {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  align-items: center;
+  text-align: center;
+  color: #e83646;
+  margin-right: 4px;
+  margin-bottom: 10px;
+}
+.about-us p {
+  color: white;
+}
+
+.about-us-info p {
+  color: white;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.information {
+  max-width: 30%;
+
+  padding: 20px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.links > a {
+  margin: 8px;
+  color: white;
+}
+
+.links > a:hover {
+  color: #e83646;
+}
+
+.slick-dots {
+  padding-bottom: 28px !important;
+}
+
+.telephone-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+@media screen and (max-width: 780px) {
+  .about-us {
+    flex-direction: column !important;
+  }
+
+  .dubai-location {
+    justify-content: flex-start !important;
+  }
+
+  .uae-chauffuer-logo {
+    max-width: 100% !important;
+  }
+
+  .about-us-info {
+    max-width: 100% !important;
+  }
+
+  .information {
+    max-width: 100% !important;
+  }
+
+  .location-icon-about-us-china {
+    font-size: 30px !important;
+  }
+}
+
+@media screen and (min-width: 1655px) {
+  .dubai-location {
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .location-icon-div {
+    display: block;
+  }
+
+  .location-icon-about-us-china {
+    font-size: 23px !important;
+  }
+}

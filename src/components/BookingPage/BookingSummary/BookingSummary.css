@@ -1,0 +1,190 @@
+.booking-summary-final {
+  width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 2px 10px;
+  padding-bottom: 20px;
+  position: relative;
+  background-color: white;
+}
+
+.booking-summary-final-heading {
+  height: 50px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.booking-summary-final-heading h4 {
+  padding-top: 13px;
+}
+
+span.booking-number {
+  background: black;
+  color: white;
+  padding: 3px;
+}
+
+.booking-summary-number {
+  margin: 10px 0 0 20px;
+}
+
+.booking-summary-info {
+  margin: 15px 0 0 20px;
+}
+
+.booking-summary-passenger-instructions {
+  margin: 15px 0 0 20px;
+}
+
+.booking-summary-flight-details {
+  margin: 15px 0 0 20px;
+}
+
+.booking-summary-passenger-mode-of-payment {
+  margin: 15px 0 0 20px;
+}
+
+.from {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.to {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.booking-summary-vehicle {
+  display: flex;
+  align-items: center;
+  /* gap: 250px; */
+  gap: 183px;
+}
+
+.booking-summary-passenger-name {
+  display: flex;
+  align-items: center;
+  gap: 246px;
+}
+
+.booking-summary-passenger-email-phone {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.print-btn-div {
+  padding-bottom: 10px;
+}
+
+.print-btn {
+  padding: 14px 30px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+  display: block;
+  margin: 0 auto 15px auto;
+}
+
+.booking-summary-vehicle-name-flex {
+  display: flex;
+  align-items: center;
+}
+
+.booking-summary-flight-details-flex {
+  display: flex;
+  align-items: center;
+}
+
+.booking-summary-vehicle-fare-flex {
+  display: flex;
+  align-items: center;
+}
+
+.booking-summary-passenger-first-name-flex {
+  display: flex;
+  align-items: center;
+}
+
+.booking-summary-passenger-last-name-flex {
+  display: flex;
+  align-items: center;
+}
+
+.booking-summary-passenger-email-flex {
+  display: flex;
+  align-items: center;
+}
+
+.booking-summary-passenger-phone-flex {
+  display: flex;
+  align-items: center;
+}
+
+.booking-summary-passenger-instructions-flex {
+  display: flex;
+  align-items: center;
+}
+
+.booking-summary-passenger-mode-of-pament-flex {
+  display: flex;
+  align-items: center;
+}
+
+.book-again {
+  text-align: center;
+}
+
+.book-again-btn {
+  padding: 10px 15px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.book-again-btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 450px) {
+  .booking-summary-final {
+    width: 100%;
+  }
+
+  .booking-summary-vehicle {
+    gap: 25px;
+  }
+
+  .booking-summary-passenger-name {
+    gap: 90px;
+  }
+
+  .booking-summary-passenger-email-phone {
+    gap: 13px;
+    flex-wrap: wrap;
+  }
+
+  .book-again {
+    margin-top: 15px;
+  }
+
+  .book-again-btns {
+    margin-top: 0px;
+  }
+
+  .booking-summary-passenger-email-phone {
+    flex-direction: column !important;
+    gap: 13px !important;
+    align-items: flex-start !important;
+  }
+}

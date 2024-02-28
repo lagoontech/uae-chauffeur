@@ -1,0 +1,31 @@
+.whatsapp {
+  top: 85%;
+  /* left: 93%; */
+  left: 94%;
+  margin-top: 10px;
+  position: fixed;
+  /* animation: rotation 4s infinite linear; */
+}
+
+img.whatsapp-img {
+  width: 60px;
+}
+
+/* @keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+@media screen and (max-width: 470px) {
+  .whatsapp-img {
+    width: 50px !important;
+  }
+
+  .whatsapp {
+    left: 82%;
+  }
+}

@@ -1,0 +1,455 @@
+.details-form-main-container {
+  display: flex;
+  /* gap: 50px; */
+}
+
+.payment-and-confirm {
+  text-align: center;
+  padding-top: 25px;
+  font-size: 16px;
+}
+
+.details-form-container {
+  width: 85vw;
+  margin: 40px auto 0 auto !important;
+  padding-bottom: 15px;
+  margin-top: 20px;
+  background-color: white;
+  display: flex;
+}
+
+.details-form {
+  width: 100%;
+  min-width: 80%;
+  margin: 0 auto;
+  box-sizing: 0 2px 10px;
+  border-radius: 10px;
+  padding-bottom: 15px;
+  margin-left: 30px;
+}
+
+.details-form-div {
+  padding: 7px 30px;
+}
+
+.details-group {
+  position: relative;
+  margin: 20px;
+  display: inline-block;
+  margin-top: 0;
+}
+
+.details-info {
+  margin-left: 56px;
+  margin-top: 35px;
+  color: crimson;
+  font-size: 15px;
+}
+
+.react-tel-input .form-control {
+  height: 52px !important;
+}
+
+.jRlplL {
+  margin-left: 65px;
+  margin-top: 15px;
+}
+
+.drgnwN {
+  margin-left: 2px !important;
+}
+
+.kVEHsT {
+  width: 104% !important;
+  height: 55px !important;
+  background: #e6e6e6 !important;
+}
+
+.gGJvTr .credit-card-input {
+  width: 120% !important;
+}
+
+.gGJvTr .credit-card-input::placeholder {
+  margin-left: 10px;
+}
+
+#cvc::placeholder {
+  margin-left: 14px !important;
+}
+
+.form-group {
+  position: relative;
+  margin: 15px;
+}
+.details-form-div input {
+  padding: 14px !important;
+  display: block;
+  position: relative;
+  width: 100%;
+  margin-top: 8px;
+  background: none #ffff;
+  border: 2px solid #00000017;
+  border-radius: 5px;
+  /* margin-left: 20px; */
+}
+
+.details-form-div label {
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.details-input::placeholder {
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.details-group-mobile-input {
+  display: inline-block;
+  margin-left: 12px;
+}
+
+.PhoneInputInput {
+  flex: none !important;
+  width: 76% !important;
+  margin-left: 0 !important;
+}
+
+.PhoneInputInput::placeholder {
+  margin-top: 1px;
+  margin-left: 5px !important;
+}
+
+.react-tel-input {
+  margin-top: 7px !important;
+}
+
+.react-tel-input .form-control {
+  width: 83% !important;
+  margin-left: 26px !important;
+}
+
+.car-holder-name-div {
+  margin-top: 10px;
+}
+
+.card-holder-name-label {
+  margin-left: 65px !important;
+}
+
+.card-holder-name {
+  margin-top: 15px;
+  width: 77%;
+  margin-right: 87px;
+}
+
+.OR {
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.pay-by-cash {
+  margin: 20px 60px;
+}
+
+.pay-by-cash-checkbox {
+  display: inline-block;
+  padding: 0;
+  width: 10%;
+}
+
+.pay-by-cash-text {
+  display: inline-block;
+  font-size: 15px;
+}
+
+.add-flight-details {
+  margin: 20px 25px;
+}
+
+.add-flight-details-checkbox {
+  display: inline-block;
+  padding: 0;
+  width: 10%;
+}
+
+.add-flight-details-text {
+  display: inline-block;
+  font-size: 15px;
+}
+
+textarea {
+  margin-top: 5px;
+  width: 88%;
+}
+
+.flight-details input {
+  width: 69% !important;
+  margin-left: 54px;
+}
+
+#details-input-last-name::placeholder {
+  margin-top: 2px;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.pay-by-cash-or-link {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  gap: 55px;
+  margin-left: 35px;
+  margin-top: 34px;
+}
+
+.pay-by-cash-or-link.flight {
+  margin-top: 25px;
+}
+
+.pay-by-cash {
+  position: relative;
+}
+
+.pay-by-cash-btn {
+  padding: 12px 16px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.pay-by-cash-btn.active::before {
+  content: '✔️';
+  position: absolute;
+  z-index: 2;
+  right: 0px;
+  top: 0px;
+  background-color: white;
+  color: black;
+  border-radius: 0 0 0 10px;
+  font-size: 8px;
+  line-height: 10px;
+  padding: 2px 2px 2px 2px;
+}
+
+.pay-by-cash-btn.active {
+  border: 3px solid crimson;
+}
+
+.pay-by-link {
+  position: relative;
+}
+
+.pay-by-link-btn {
+  padding: 12px 16px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.pay-by-link-btn.active::before {
+  content: '✔️';
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  top: 0;
+  background-color: white;
+  color: black;
+  border-radius: 0 0 0 10px;
+  font-size: 8px;
+  line-height: 10px;
+  padding: 2px 2px 2px 2px;
+}
+
+.pay-by-link-btn.active {
+  border: 3px solid crimson;
+}
+
+.flight-number-label {
+  margin-left: 55px;
+}
+
+.flight-details input::placeholder {
+  margin-left: 10px;
+}
+
+.select-payment-method {
+  margin: 0 30%;
+}
+
+.select-payment-method h1 {
+  font-size: 18px;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 790px) {
+  .details-form-container {
+    width: 100%;
+    gap: 25px;
+  }
+
+  .details-info {
+    margin-left: 25px;
+  }
+
+  .details-form-div {
+    padding: 7px 30px;
+    padding-left: 0;
+  }
+
+  .details-group {
+    width: 100%;
+  }
+
+  .details-group-mobile-input {
+    width: 92%;
+  }
+
+  .PhoneInput {
+    width: 100% !important;
+  }
+  .PhoneInputInput {
+    width: 100% !important;
+  }
+
+  textarea {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .select-payment-method {
+    margin: 0;
+    text-align: center;
+  }
+  .pay-by-cash-or-link {
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .pay-by-cash {
+    margin-left: 0;
+  }
+
+  .flight-number-label {
+    margin-left: 23px;
+  }
+  .flight-details input {
+    width: 92% !important;
+    margin-left: 20px;
+  }
+
+  .pay-by-cash-or-link.flight {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .details-form {
+    margin: 0;
+  }
+
+  .details-form-container {
+    flex-direction: column;
+  }
+
+  .details-form-div input {
+    padding: 20px !important;
+  }
+
+  .details-form-div input::placeholder {
+    margin-left: 10px;
+  }
+
+  .PhoneInputInput::placeholder {
+    margin-left: 11px !important;
+    margin-top: 3px;
+  }
+
+  .pay-by-cash-or-link {
+    /* margin: 20px 0 0 30px; */
+    margin-left: 25px !important;
+    margin-top: 20px;
+  }
+
+  .add-flight-details {
+    margin: 12px 40px;
+  }
+
+  .add-flight-details-checkbox {
+    width: 10% !important;
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    border: 2px solid black;
+  }
+
+  .pay-by-cash {
+    margin: 0;
+  }
+
+  .details-group.from-location.flight-details {
+    margin-left: 0 !important;
+  }
+
+  .flight-details input {
+    width: 90% !important;
+    /* margin-left: 40px; */
+  }
+
+  .flight-number-label {
+    margin-left: 45px;
+  }
+
+  .select-payment-method {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .pay-by-cash-or-link.flight {
+    margin-top: 20px;
+  }
+
+  .details-info {
+    margin-left: 52px;
+  }
+  .prev-and-continue-btns {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 1490px) {
+  .details-form {
+    width: 0%;
+    min-width: 80%;
+    margin-left: 110px;
+  }
+
+  textarea {
+    margin-top: 20px;
+  }
+}

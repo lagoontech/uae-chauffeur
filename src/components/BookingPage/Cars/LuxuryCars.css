@@ -1,0 +1,102 @@
+.cars-selection-container {
+  margin: 0 auto;
+  width: 800px;
+  box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.75);
+}
+
+.select-vehicle {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.car-list {
+  width: 80%;
+  margin: 30px auto;
+  padding-bottom: 20px;
+}
+
+.col {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.car-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 96%;
+  cursor: pointer;
+  position: relative;
+}
+
+.car-list > button {
+  margin: 10px;
+  background-color: #fff;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+}
+
+.car-btn.active::before {
+  content: '✔️';
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  top: 0;
+  background-color: black;
+  color: white;
+  border-radius: 0 0 0 10px;
+  font-size: 14px;
+  line-height: 27px;
+  padding: 4px 7px 6px 10px;
+}
+
+.car-btn.active {
+  border: 3px solid black;
+}
+
+.col img {
+  height: 135px;
+  width: 200px;
+  border-radius: 8px;
+}
+
+.car-name {
+  font-size: 18px;
+}
+
+.car-amount {
+  font-weight: 900;
+  font-size: 18px;
+  margin-right: 5px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.usd {
+  font-size: 15px;
+  margin: 0 1px 0 0;
+  font-weight: 600;
+}
+
+.distane {
+  margin: 2px 5px 0 0;
+}
+
+.km-price {
+  font-size: 15px;
+  font-weight: 700;
+  color: red;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.passengers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.total-passenger {
+  padding: 2px 0 0 6px;
+}

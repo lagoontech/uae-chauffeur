@@ -1,0 +1,12 @@
+.map-container {
+  width: 400px;
+  height: 555px;
+  margin: 0 auto;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+
+.map-container h3 {
+  text-align: center;
+  padding: 20px;
+}

@@ -1,0 +1,9 @@
+.booking-page-container {
+  display: grid;
+}
+
+@media screen and (max-width: 760px) {
+  .booking-page-container {
+    display: block;
+  }
+}

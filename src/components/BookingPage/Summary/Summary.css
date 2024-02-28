@@ -1,0 +1,272 @@
+.car-summary-main-div {
+  padding: 0 20px;
+}
+
+.car-summary {
+  width: 400px;
+  height: 635px;
+  margin: 20px 2px;
+  background-color: white;
+  position: relative;
+}
+
+.car-summary.cars.luxury {
+  height: 407px;
+}
+
+h5 {
+  color: crimson;
+}
+
+.summary-title {
+  height: 70px;
+  background: white;
+  color: black;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.summary-title h1 {
+  padding-top: 20px;
+  font-size: 22px;
+}
+
+.summary-date-and-time {
+  display: flex;
+  gap: 150px;
+  margin-left: 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.summary-date-and-time h5 {
+  font-size: 12px;
+  color: crimson;
+}
+
+.date {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.time {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.summary-from-address {
+  text-align: left;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.summary-to-address {
+  text-align: left;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.summary-from-address h5 {
+  margin-left: 30px;
+  font-size: 10px;
+  color: crimson;
+  margin-bottom: 5px;
+}
+
+.summary-to-address h5 {
+  margin-left: 30px;
+  font-size: 10px;
+  color: crimson;
+  margin-bottom: 5px;
+}
+
+.pickup {
+  display: flex;
+  gap: 10px;
+}
+
+.drop {
+  display: flex;
+  gap: 10px;
+}
+
+.summary-car-price {
+  /* border: 2px solid yellow; */
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.vehicle-name-flex {
+  display: flex;
+  align-items: center;
+}
+
+.vehicle-fare-flex {
+  display: flex;
+  align-items: center;
+}
+
+.vehicle-name {
+  margin-left: 20px;
+}
+
+.vehicle-fare {
+  margin-left: 50px;
+}
+
+.summary-passenger-name {
+  display: flex;
+  gap: 50px;
+  margin-top: 10px;
+}
+
+.passenger-first-name {
+  margin-left: 18px;
+}
+
+.summary-passenger-email-mobile {
+  margin-top: 10px;
+}
+
+.passenger-email {
+  margin-left: 18px;
+}
+
+.passenger-instructions {
+  margin-left: 18px;
+  margin-top: 10px;
+}
+.mode-of-payment {
+  margin-left: 18px;
+  margin-top: 10px;
+}
+
+.passenger-mobile-number {
+  margin-left: 18px;
+  margin-top: 10px;
+}
+
+.passenger-first-name-div {
+  display: flex;
+  align-items: center;
+}
+
+.passenger-last-name-div {
+  display: flex;
+  align-items: center;
+}
+
+.passenger-email-div {
+  display: flex;
+  align-items: center;
+}
+
+.passenger-mobile-number-div {
+  display: flex;
+  align-items: center;
+}
+
+.passenger-instructions-div {
+  display: flex;
+  align-items: center;
+}
+
+.mode-of-payment-div {
+  display: flex;
+  align-items: center;
+}
+
+.car-summary h5 {
+  font-size: 11px;
+}
+
+.car-summary h4 {
+  font-size: 14px;
+}
+
+.total-fare-last-div {
+  position: absolute;
+  top: 92%;
+  left: 20%;
+  text-align: center;
+}
+
+.car-summary.cars {
+  width: 400px;
+  height: 550px;
+  margin: 105px 2px 0 2px;
+  background-color: white;
+  position: relative;
+}
+
+.car-summary.cars .total-fare-last-div {
+  top: 94%;
+  left: 19%;
+}
+
+.details-group.from-location.flight-details {
+  margin-left: 0;
+}
+
+.add-flight-details-summary {
+  margin: 10px;
+  margin-top: 15px;
+  margin-left: 17px;
+}
+
+.passenger-flight-div {
+  display: flex;
+  align-items: center;
+}
+
+.car-summary.details.flight {
+  height: 626px;
+}
+
+/* car summary details form */
+.car-summary.details {
+  width: 400px;
+  height: 525px;
+  margin: 80px 2px 0 2px;
+  background: white;
+  position: relative;
+}
+
+.car-summary.details .total-fare-h2 {
+  color: black !important;
+  font-size: 22px !important;
+}
+
+.car-summary.details .total-fare-last-div {
+  top: 105%;
+  left: 25%;
+}
+
+.total-fare-h2 p {
+  display: inline;
+}
+
+@media screen and (max-width: 790px) {
+  .car-summary.details .total-fare-last-div {
+    top: 133%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  /* .car-summary {
+    width: 100% !important;
+    margin: 20px auto !important;
+  } */
+
+  .car-summary {
+    display: none;
+  }
+
+  .total-fare-last-div {
+    top: 94% !important;
+  }
+}
